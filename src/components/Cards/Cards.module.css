@@ -1,0 +1,8 @@
+.container{
+    background-color: rgb(3, 129, 255);
+    margin: 2.5%;
+    column-count: 4;
+    max-width:95%;
+    break-inside: avoid;
+    
+}

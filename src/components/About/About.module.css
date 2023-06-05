@@ -1,0 +1,22 @@
+.container{
+    background-color: rgba(186, 197, 197, 0.315);
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 30%;
+    padding: 10px;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.title{
+    font-size: 28px;
+    color: floralwhite;
+}
+
+.text{
+    color:floralwhite;
+    font-size: large;
+    line-height: 50px;
+    text-align: left;
+}

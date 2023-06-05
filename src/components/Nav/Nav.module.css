@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 45px;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+.button{
+    background-color:rgb(166, 154, 255);
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 60px;
+    border-radius: 7px;
+    border: 0px;
+    width: 10%;
+
+}
