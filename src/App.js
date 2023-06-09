@@ -33,7 +33,7 @@ function App() {
 
    function onSearch(id) {
       axios(`https://rickandmortyapi.com/api/character/${id}`).then(({ data }) => {
-         if (data.name) {
+         if (data.id < 801) {
             if(characters.some(chara=>chara.id === data.id)){ return;}
             else {setCharacters((oldChars) => [...oldChars, data]);}
             }

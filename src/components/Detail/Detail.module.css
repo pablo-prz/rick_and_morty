@@ -1,0 +1,24 @@
+.card{
+    background-color: #75809986;
+    padding: 2%;
+    break-inside:avoid;
+    grid-row-end: auto;
+}
+
+.text{
+    color:floralwhite;
+    font-size:x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.titles{
+    color:floralwhite;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+
+
+.imag{
+    border-radius: 10px;
+}

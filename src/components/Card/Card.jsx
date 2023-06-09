@@ -55,7 +55,7 @@ function Card( {name, status, species, gender, origin, image, id, onClose, addFa
          </button>
        )}
 
-         <img src={image} />
+         <img className={style.imge} src={image} />
        <Link to={`/detail/${id}`}>
          <h2 className={style.titulo}>{name}</h2>
        </Link>
